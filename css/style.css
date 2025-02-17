@@ -1,0 +1,301 @@
+body {
+    padding-top: 70px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.navbar {
+    background: #F97300;
+}
+
+.nav-link,
+.navbar-brand {
+    color: white;
+    cursor: pointer;
+    margin-left: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+    background: #fdfdfd;
+    color: black;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    background: #fff !important;
+}
+
+/* Стили для иконок */
+.nav-link svg,
+.navbar-brand svg {
+    margin-right: 5px;
+    fill: white;
+}
+
+/* Стили для Header */
+.header {
+    position: relative;
+    background-image: url('../image/headerback.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.79);
+}
+
+.description {
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+    text-align: left;
+    left: 0;
+    right: 0;
+}
+
+.description h1 {
+    color: #F97300;
+    text-align: left;
+}
+
+.description p {
+    color: #666;
+    font-size: 20px;
+    width: 80%;
+    max-width: 600px;
+    line-height: 1.5;
+
+}
+
+.description button {
+    border: 1px solid #F97300;
+    background: #F97300;
+    color: #fff;
+    
+}
+
+/* Стили для About */
+.about {
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+}
+
+.about h1 {
+    color: #F97300;
+    margin: 2em;
+    text-align: center;
+}
+
+.about img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.about span {
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 115px;
+}
+
+.about .desc {
+    padding: 2em;
+    border-left: 4px solid #215850;
+}
+
+.about .desc h3 {
+    color: #215850;
+}
+
+.about .desc p {
+    line-height: 2;
+    color: #888;
+    text-align: justify;
+}
+
+.footer {
+    background: #F97300;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.form-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.contact-text {
+    color: #f97300;
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.form-inputs {
+    flex: 1;
+}
+
+.form-inputs input[type="text"],
+.form-inputs input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-inputs textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+.form-inputs button {
+    background-color: #f97300;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-inputs button:hover {
+    opacity: 0.8;
+}
+
+.pricing-container {
+    text-align: center;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.pricing-container h2 {
+    color: #f97300;
+}
+
+.pricing-container p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.pricing-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.pricing-card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.pricing-card.profi {
+    border-color: #1976D2;
+    border-width: 2px;
+}
+
+.pricing-card.profi h3 {
+    color: #fff;
+    background-color: #1976D2;
+    padding: 10px;
+    margin: -20px -20px 20px -20px;
+    border-radius: 5px 5px 0 0;
+}
+
+.pricing-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.pricing-card .price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.pricing-card ul li {
+    margin-bottom: 8px;
+    color: #555;
+}
+.pricing-card .button {
+    background-color: #fff;
+    color: #1976D2;
+    border: 1px solid #1976D2;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.pricing-card .button:hover {
+    background-color: #1976D2;
+    color: #fff;
+}
+@media (max-width: 768px) {
+    .pricing-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pricing-card {
+        width: 100%;
+        max-width: 400px;
+    }
+}
